@@ -1,0 +1,34 @@
+{
+  "__version__": "1.0.6",
+  "custom_joint_texture_layouts": [],
+  "physics": {
+    "collisionGroups": [
+      {
+        "index": 1,
+        "name": "PLAYER_SHIP"
+      },
+      {
+        "index": 2,
+        "name": "ASTEROIDS"
+      },
+      {
+        "index": 3,
+        "name": "ITEMS"
+      }
+    ],
+    "collisionMatrix": {
+      "0": 7,
+      "1": 13,
+      "2": 3,
+      "3": 2
+    },
+    "gravity": {
+      "y": 0
+    }
+  },
+  "general": {
+    "designResolution": {
+      "fitHeight": true
+    }
+  }
+}
