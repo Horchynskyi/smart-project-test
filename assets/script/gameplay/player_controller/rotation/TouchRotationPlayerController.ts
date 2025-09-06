@@ -17,7 +17,7 @@ export class TouchRotationPlayerController extends BasicRotationPlayerController
 
 	protected onLoad(): void {
 		input.on(Input.EventType.TOUCH_START, this.onTouchStart, this);
-		input.on(Input.EventType.TOUCH_START, this.onTouchMove, this);
+		input.on(Input.EventType.TOUCH_MOVE, this.onTouchMove, this);
 	}
 
 	protected onTouchStart(event: EventTouch) {
